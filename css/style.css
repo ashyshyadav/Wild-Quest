@@ -652,3 +652,9 @@ h6,
     width: 100%;
    }
 }
+
+@media screen and (max-width:400px) {
+    .timeline-with-icons .timeline-icon{
+        left: -40px;
+    }
+}
