@@ -658,3 +658,15 @@ h6,
         left: -40px;
     }
 }
+
+.height-img img {
+    height: 100% !important;
+}
+@media screen and (max-width:767x) {
+    .height-img img {
+        width:100%;
+        height:100% !important;
+        object-fit:cover;
+    }
+}
+
