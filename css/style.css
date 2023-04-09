@@ -653,9 +653,9 @@ h6,
    }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .timeline-with-icons .timeline-icon{
-        left: -40px;
+        left: -38px;
     }
 }
 
