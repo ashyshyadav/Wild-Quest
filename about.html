@@ -41,6 +41,33 @@
 
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        @media screen and (max-width:380px) {
+        .p-5 {
+            padding: 0.5rem !important;
+        }
+        .section-title h5::after {
+            position: absolute;
+            content: "";
+            width: 15px;
+            height: 3px;
+            right: -52px;
+            bottom: 11px;
+            background: var(--secondary);
+        }
+
+        .section-title h5::before {
+            position: absolute;
+            content: "";
+            width: 28px;
+            height: 3px;
+            right: -34px;
+            bottom: 11px;
+            background: var(--primary);
+        }
+    }
+    </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKL1C0PDZT"></script>

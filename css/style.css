@@ -670,3 +670,20 @@ h6,
     }
 }
 
+@media screen and (max-width:380px) {
+    .navbar-toggler {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        transition: box-shadow 0.15s ease-in-out;
+    }
+
+    .px-5 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
