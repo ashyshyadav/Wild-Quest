@@ -687,3 +687,10 @@ h6,
     }
 }
 
+.carousel-caption{
+    background: none;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
